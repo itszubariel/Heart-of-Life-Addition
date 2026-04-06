@@ -1,0 +1,33 @@
+{
+  "parent": "heartoflifeadditions:get_template",
+  "display": {
+    "icon": {"id": "heartoflifeadditions:heart_pickaxe"},
+    "title": {"translate": "advancement.heartoflifeadditions.craft_heart_tool.title"},
+    "description": {"translate": "advancement.heartoflifeadditions.craft_heart_tool.description"},
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["heartoflifeadditions:heart_pickaxe"]}]}
+    },
+    "got_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["heartoflifeadditions:heart_axe"]}]}
+    },
+    "got_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["heartoflifeadditions:heart_sword"]}]}
+    },
+    "got_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["heartoflifeadditions:heart_shovel"]}]}
+    }
+  },
+  "requirements": [
+    ["got_pickaxe", "got_axe", "got_sword", "got_shovel"]
+  ]
+}

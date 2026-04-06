@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "heartoflifeadditions:heart_upgrade_template",
+  "base": "minecraft:diamond_chestplate",
+  "addition": "heartoflife:heart",
+  "result": {"id": "heartoflifeadditions:heart_chestplate"}
+}

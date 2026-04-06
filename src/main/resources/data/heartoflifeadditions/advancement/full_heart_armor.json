@@ -1,0 +1,25 @@
+{
+  "parent": "heartoflifeadditions:get_template",
+  "display": {
+    "icon": {"id": "heartoflifeadditions:heart_chestplate"},
+    "title": {"translate": "advancement.heartoflifeadditions.full_heart_armor.title"},
+    "description": {"translate": "advancement.heartoflifeadditions.full_heart_armor.description"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "heart_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": ["heartoflifeadditions:heart_helmet"]},
+          {"items": ["heartoflifeadditions:heart_chestplate"]},
+          {"items": ["heartoflifeadditions:heart_leggings"]},
+          {"items": ["heartoflifeadditions:heart_boots"]}
+        ]
+      }
+    }
+  }
+}

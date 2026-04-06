@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "heartoflifeadditions",
+  "version": "1.0.0",
+  "name": "Heart of Life Additions",
+  "description": "Weapons, armor, tools and gear that scale with or uses permanent hearts from Heart of Life.",
+  "authors": [
+    "Zubariel"
+  ],
+  "contact": {
+    "homepage": "https://github.com/itszubariel/Heart-of-Life-Additions",
+    "sources": "https://github.com/itszubariel/Heart-of-Life-Additions"
+  },
+  "license": "ARR",
+  "icon": "assets/heartoflifeadditions/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.zubariel.heartoflifeadditions.HeartOfLifeAdditions"
+    ],
+    "fabric-datagen": [
+      "com.zubariel.heartoflifeadditions.HeartOfLifeAdditionsDataGenerator"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": ">=1.21 <1.22",
+    "java": ">=21",
+    "fabric-api": "*",
+    "heartoflife": "*"
+  },
+  "suggests": {
+    "yet_another_config_lib_v3": "*"
+  }
+}

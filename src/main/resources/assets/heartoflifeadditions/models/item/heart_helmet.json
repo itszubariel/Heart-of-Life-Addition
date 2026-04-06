@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "heartoflifeadditions:item/heart_helmet"
+  }
+}

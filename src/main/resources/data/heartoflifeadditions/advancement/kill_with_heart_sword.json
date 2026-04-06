@@ -1,0 +1,32 @@
+{
+  "parent": "heartoflifeadditions:craft_heart_tool",
+  "display": {
+    "icon": {"id": "heartoflifeadditions:heart_sword"},
+    "title": {"translate": "advancement.heartoflifeadditions.kill_with_heart_sword.title"},
+    "description": {"translate": "advancement.heartoflifeadditions.kill_with_heart_sword.description"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_entity": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": ["heartoflifeadditions:heart_sword"]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

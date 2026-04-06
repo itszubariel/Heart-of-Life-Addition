@@ -1,0 +1,22 @@
+{
+  "parent": "heartoflife:hol",
+  "display": {
+    "icon": {"id": "heartoflifeadditions:heart_upgrade_template"},
+    "title": {"translate": "advancement.heartoflifeadditions.get_template.title"},
+    "description": {"translate": "advancement.heartoflifeadditions.get_template.description"},
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": ["heartoflifeadditions:heart_upgrade_template"]}
+        ]
+      }
+    }
+  }
+}

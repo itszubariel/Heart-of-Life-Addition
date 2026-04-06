@@ -1,0 +1,37 @@
+{
+  "itemgroup.heartoflifeadditions": "Heart of Life Additions",
+
+  "item.heartoflifeadditions.heart_upgrade_template": "Heart Upgrade",
+
+  "item.heartoflifeadditions.smithing_template.heart_upgrade.applies_to": "Diamond Equipment",
+  "item.heartoflifeadditions.smithing_template.heart_upgrade.ingredients": "Heart of Life",
+  "upgrade.heartoflifeadditions.heart_upgrade": "Heart Upgrade",
+  "item.heartoflifeadditions.smithing_template.heart_upgrade.base_slot_description": "Add a diamond armor, weapon or tool",
+  "item.heartoflifeadditions.smithing_template.heart_upgrade.additions_slot_description": "Add a Heart of Life",
+
+
+  "item.heartoflifeadditions.heart_sword": "Heart Sword",
+  "item.heartoflifeadditions.heart_pickaxe": "Heart Pickaxe",
+  "item.heartoflifeadditions.heart_axe": "Heart Axe",
+  "item.heartoflifeadditions.heart_shovel": "Heart Shovel",
+  "item.heartoflifeadditions.heart_hoe": "Heart Hoe",
+  "item.heartoflifeadditions.heart_helmet": "Heart Helmet",
+  "item.heartoflifeadditions.heart_chestplate": "Heart Chestplate",
+  "item.heartoflifeadditions.heart_leggings": "Heart Leggings",
+  "item.heartoflifeadditions.heart_boots": "Heart Boots",
+
+  "advancement.heartoflifeadditions.get_template.title": "Heart of Crafting",
+  "advancement.heartoflifeadditions.get_template.description": "Obtain a Heart Upgrade Smithing Template",
+
+  "advancement.heartoflifeadditions.craft_heart_tool.title": "Forged in Life",
+  "advancement.heartoflifeadditions.craft_heart_tool.description": "Forge a tool infused with the power of hearts",
+
+  "advancement.heartoflifeadditions.craft_heart_hoe.title": "Questionable Choices",
+  "advancement.heartoflifeadditions.craft_heart_hoe.description": "Upgrade to a Heart Hoe… was it really worth it?",
+
+  "advancement.heartoflifeadditions.full_heart_armor.title": "Heartbeat Shield",
+  "advancement.heartoflifeadditions.full_heart_armor.description": "Wear a full set of Heart armor",
+
+  "advancement.heartoflifeadditions.kill_with_heart_sword.title": "Pulse of Battle",
+  "advancement.heartoflifeadditions.kill_with_heart_sword.description": "Slay a mob using a Heart Sword"
+}

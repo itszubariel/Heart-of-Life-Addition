@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "heartoflifeadditions:heart"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "heartoflifeadditions:heart"
+      }
+    ]
+  }
+}

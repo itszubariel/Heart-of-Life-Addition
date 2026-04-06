@@ -1,0 +1,22 @@
+{
+  "parent": "heartoflifeadditions:craft_heart_tool",
+  "display": {
+    "icon": {"id": "heartoflifeadditions:heart_hoe"},
+    "title": {"translate": "advancement.heartoflifeadditions.craft_heart_hoe.title"},
+    "description": {"translate": "advancement.heartoflifeadditions.craft_heart_hoe.description"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": ["heartoflifeadditions:heart_hoe"]}
+        ]
+      }
+    }
+  }
+}
